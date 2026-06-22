@@ -10,6 +10,7 @@ public class Album {
     private Long id;
 
     private String title;
+    @Column(name = "release_year")
     private int year;
     private String coverUrl;
 
